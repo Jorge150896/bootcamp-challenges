@@ -1,0 +1,427 @@
+.general {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.caja {
+  display: flex;
+  text-align: center;
+  width: 50%;
+}
+.fondo {
+  filter: blur(10px);
+}
+.base {
+  position: absolute;
+  z-index: 2;
+}
+.cajaTitulo {
+  position: absolute;
+  top: 10px;
+  height: 100%;
+}
+.tituloA {
+  color: white;
+  font-family: "Playfair Display", serif;
+  font-size: 390px;
+  font-weight: 900;
+  /* font-family: "Poppins", sans-serif; */
+  position: relative;
+  top: -530px;
+  left: -143px;
+  transform: scaleX(0.5);
+  transform-origin: 0 0;
+  z-index: 2;
+}
+.tituloB {
+  color: white;
+  font-family: "Playfair Display", serif;
+  /* font-family: "Poppins", sans-serif; */
+  font-size: 390px;
+  font-weight: 900;
+  letter-spacing: 6px;
+  position: relative;
+  left: 215px;
+  top: -1440px;
+  transform: scaleX(0.5);
+  transform-origin: 0 0;
+  width: max-content;
+  z-index: 0;
+}
+.fuentea {
+  font-family: "Playfair Display", serif;
+}
+.fuenteb {
+  font-family: "Poppins", sans-serif;
+}
+.fuenteb.amarillo {
+  color: #fcf100;
+}
+.fuentea.amarillo {
+  color: #fcf100;
+}
+.box1 {
+  position: absolute;
+}
+.box1 > p {
+  top: 350px;
+  color: white;
+  position: relative;
+  left: 0px;
+  /* width: min-content; */
+  z-index: 2;
+}
+.box1 :nth-child(1) {
+  /* SELENA */
+  font-size: 100px;
+  font-weight: 900;
+  margin: -55px 0px;
+  left: 5px;
+  transform: scaleX(0.8);
+  transform-origin: 0 0;
+}
+.box1 :nth-child(2) {
+  /* ON THE */
+  color: #e2e1de;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 900;
+  margin-top: 20px;
+  margin-left: 50px;
+  text-align: left;
+  transform: scaleX(0.9);
+  transform-origin: 0 0;
+}
+.box1 :nth-child(3) {
+  /* PRESSURE TO BE PERFECT */
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 35px;
+  margin-left: 50px;
+  margin-top: -20px;
+  text-align: left;
+  transform: scaleX(0.7);
+  transform-origin: 0 0;
+}
+.box1 :nth-child(4) {
+  /* AND WHAN HER HEART*/
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 50px;
+  margin-top: -37px;
+  margin-bottom: 8px;
+  line-height: 25px;
+  text-align: left;
+  transform: scaleX(0.7);
+  transform-origin: 0 0;
+}
+.box1 :nth-child(5) {
+  /* WANTS */
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: -90px;
+  margin-top: -200px;
+  text-align: left;
+  transform: scaleX(0.7);
+  transform-origin: 0 0;
+}
+.box1 :nth-child(6) {
+  /* NOW */
+  font-style: italic;
+  display: inline-block;
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: -30px;
+  margin-top: -200px;
+  text-align: left;
+  transform: scaleX(0.7);
+  transform-origin: 0 0;
+}
+.box2 {
+  position: absolute;
+}
+.box2 > p {
+  top: 350px;
+  color: white;
+  position: relative;
+  left: 0px;
+  /* width: min-content; */
+  z-index: 2;
+}
+.box2 :nth-child(1) {
+  /*FASHION NOW: */
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 25px;
+  margin: -50px 0px;
+  left: 256px;
+  text-align: right;
+  transform: scaleX(0.6);
+  transform-origin: 0 0;
+}
+.box2 :nth-child(2) {
+  /* YOU NEED */
+  color: #e2e1de;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 900;
+  margin-top: 50px;
+  margin-left: 280px;
+  text-align: end;
+  transform: scaleX(0.9);
+  transform-origin: 0 0;
+}
+.box2 :nth-child(3) {
+  /* A SEXY BOOT A WELL CUT COAT */
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 35px;
+  margin-left: 605px;
+  margin-top: -20px;
+  text-align: right;
+  transform: scaleX(0.7);
+  transform-origin: 0 0;
+}
+.box2 :nth-child(4) {
+  /*AND A KNOCKOUT DRESS */
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 25px;
+  margin-left: 605px;
+  margin-top: -35px;
+  text-align: right;
+  transform: scaleX(0.7);
+  transform-origin: 0 0;
+}
+.box2 :nth-child(5) {
+  /* WE'VE GOT THE SEASON'S 95 BEST */
+  color: #e2e1de;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 900;
+  margin-top: -25px;
+  margin-left: 250px;
+  text-align: end;
+  transform: scaleX(0.9);
+  transform-origin: 0 0;
+}
+
+.box3 {
+  position: absolute;
+}
+.box3 > p {
+  top: 350px;
+  color: white;
+  position: relative;
+  left: 0px;
+  /* width: min-content; */
+  z-index: 3;
+}
+
+.box3 :nth-child(1) {
+  /* PLUS: */
+  font-size: 20px;
+  font-weight: 900;
+  font-style: italic;
+  margin: -55px 0px;
+  left: -55px;
+  top: 750px;
+  transform: scaleX(0.9);
+  transform-origin: 0 0;
+}
+.box3 :nth-child(2) {
+  /* THE NEW NEW AGE */
+  color: white;
+  font-size: 54px;
+  font-weight: 900;
+  line-height: 50px;
+  margin-top: 435px;
+  margin-left: 50px;
+  text-align: left;
+  top: 370px;
+  transform: scaleX(0.7);
+  transform-origin: 0 0;
+}
+.box3 :nth-child(3) {
+  /* ENERGY<br>HEALING MEETS<br>MEDICINE */
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 50px;
+  margin-top: -55px;
+  margin-bottom: 8px;
+  line-height: 25px;
+  text-align: left;
+  top: 370px;
+  transform: scaleX(0.9);
+  transform-origin: 0 0;
+}
+.box3 :nth-child(4) {
+  /* WHEN A <br>MEDIUM IS THE<br>MESSENGER */
+  font-size: 25px;
+  font-weight: 600;
+  margin-left: 50px;
+  margin-top: 7px;
+  margin-bottom: 8px;
+  line-height: 25px;
+  text-align: left;
+  top: 365px;
+  transform: scaleX(0.9);
+  transform-origin: 0 0;
+}
+.box4 {
+  position: absolute;
+}
+.box4 > p {
+  top: 350px;
+  color: white;
+  position: relative;
+  left: 0px;
+  z-index: 3;
+}
+
+.box4 :nth-child(1) {
+  /*+*/
+  font-family: none;
+  font-size: 120px;
+  font-weight: bold;
+  line-height: 25px;
+  margin: -50px 0px;
+  top: 825px;
+  left: -15px;
+  text-align: right;
+  transform: scaleX(0.9);
+  transform-origin: 0 0;
+}
+.box4 :nth-child(2) {
+  /*12 page */
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 25px;
+  margin-left: 640px;
+  margin-top: 560px;
+  text-align: right;
+  left: -46px;
+  top: 340px;
+  transform: scaleX(0.7);
+  transform-origin: 0 0;
+}
+.box4 :nth-child(3) {
+  /*SKIN */
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 25px;
+  margin-left: 640px;
+  margin-top: 0px;
+  text-align: right;
+  top: 330px;
+  left: -45px;
+  transform: scaleX(0.7);
+  transform-origin: 0 0;
+}
+.box4 :nth-child(4) {
+  /*GUIDE */
+  font-size: 50px;
+  font-weight: 600;
+  line-height: 25px;
+  margin-left: 640px;
+  margin-top: 0px;
+  text-align: right;
+  top: 280px;
+  left: -45px;
+  transform: scaleX(0.7);
+  transform-origin: 0 0;
+}
+.box4 :nth-child(5) {
+  /*REAL SCIENCE */
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 25px;
+  margin-left: 605px;
+  margin-top: -35px;
+  text-align: right;
+  top: 275px;
+  left: -35px;
+  transform: scaleX(0.7);
+  transform-origin: 0 0;
+}
+.box4 :nth-child(6) {
+  /*BEST NEW PRODUCTS */
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 25px;
+  margin-left: 605px;
+  margin-top: -35px;
+  text-align: right;
+  top: 285px;
+  left: -35px;
+  transform: scaleX(0.7);
+  transform-origin: 0 0;
+}
+.box5 {
+  position: absolute;
+}
+.box5 > p {
+  top: 350px;
+  color: white;
+  position: relative;
+  left: 0px;
+  /* width: min-content; */
+  z-index: 3;
+}
+.box5 :nth-child(1) {
+  /*OCTOBER 2015<br>ELLE.COM */
+  color: #e2e1de;
+  font-size: 15px;
+  line-height: 15px;
+  margin: -50px 0px;
+  top: 1050px;
+  left: 50px;
+  text-align: left;
+  transform: scaleX(0.6);
+  transform-origin: 0 0;
+}
+
+.box6 {
+  position: absolute;
+}
+.box6 > p {
+  top: 350px;
+  color: white;
+  position: relative;
+  left: 0px;
+  /* width: min-content; */
+  z-index: 3;
+}
+.box6 :nth-child(1) {
+  /*- */
+  font-size: 35px;
+  line-height: 15px;
+  margin: -50px 0px;
+  top: 495px;
+  left: 720px;
+  text-align: left;
+  transform: scaleX(0.6);
+  transform-origin: 0 0;
+}
+.box67 {
+  position: absolute;
+}
+.box7 > p {
+  top: 350px;
+  color: white;
+  position: relative;
+  left: 0px;
+  /* width: min-content; */
+  z-index: 3;
+}
+.box7 :nth-child(1) {
+  /*- */
+  color: rgb(148, 148, 148);
+  font-size: 30px;
+  line-height: 15px;
+  margin: -50px 0px;
+  top: 323px;
+  left: -47px;
+  text-align: left;
+}
