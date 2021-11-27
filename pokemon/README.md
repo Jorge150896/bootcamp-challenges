@@ -4,7 +4,7 @@
 
 <table>
   <tr>
-      <td align="center">
+      <td>
       <a href="https://jorge-vicuna.gitlab.io/jorge-vicuna/">
         <img src="https://jorge-vicuna.gitlab.io/jorge-vicuna/static/media/avatar.272f0e79.jpg" width="100px;" alt=""/>
         <br />
