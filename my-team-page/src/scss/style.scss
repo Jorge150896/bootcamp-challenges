@@ -1,0 +1,125 @@
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.team {
+  width: 60%;
+  background-color: white;
+  &__crew {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 120vh;
+  }
+  &__details {
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    padding-bottom: 5%;
+  }
+  &__title {
+    width: 55%;
+    font-size: 40px;
+  }
+  &__description {
+    width: 35%;
+    text-align: justify;
+    padding-right: 10%;
+    font-family: "Poppins", sans-serif;
+  }
+  &__footer {
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+  }
+}
+.member {
+  width: 33%;
+
+  &--two {
+    align-self: flex-end;
+  }
+  &--five {
+    align-self: flex-end;
+  }
+  &__profile {
+    display: flex;
+  }
+  &__photo {
+    max-width: 14vw;
+  }
+  &__role {
+    writing-mode: vertical-lr;
+  }
+  &__name {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+  }
+}
+
+@media (max-width: 576px) {
+  .team {
+    width: 95%;
+    &__crew {
+      height: 110vh;
+    }
+    &__details {
+      display: block;
+    }
+    &__title {
+      width: 80%;
+      font-size: 40px;
+    }
+    &__description {
+      width: 80%;
+      text-align: justify;
+      padding-right: 10%;
+    }
+  }
+  .member {
+    width: 50%;
+
+    &--two {
+      align-self: flex-end;
+    }
+    &--four {
+      align-self: flex-end;
+    }
+    &--five {
+      align-self: flex-start;
+    }
+    &--six {
+      align-self: flex-end;
+    }
+    &__photo {
+      max-width: 30vw;
+    }
+  }
+}
+@media (max-width: 768px) and (min-width: 576px) {
+  .team {
+    width: 85%;
+    &__crew {
+      height: 90vh;
+    }
+    &__footer {
+      padding-top: 25%;
+    }
+  }
+  .member {
+    width: 50%;
+    &__photo {
+      max-width: 20vw;
+    }
+  }
+}
+@media (max-width: 992px) and (min-width: 768px) {
+  .team {
+    width: 80%;
+    &__crew {
+      height: 80vh;
+    }
+  }
+}

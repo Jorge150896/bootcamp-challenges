@@ -1,0 +1,128 @@
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.team {
+  width: 60%;
+  background-color: white;
+}
+.team__crew {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 120vh;
+}
+.team__details {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+  padding-bottom: 5%;
+}
+.team__title {
+  width: 55%;
+  font-size: 40px;
+}
+.team__description {
+  width: 35%;
+  text-align: justify;
+  padding-right: 10%;
+  font-family: "Poppins", sans-serif;
+}
+.team__footer {
+  display: flex;
+  justify-content: center;
+  padding-top: 10%;
+}
+
+.member {
+  width: 33%;
+}
+.member--two {
+  align-self: flex-end;
+}
+.member--five {
+  align-self: flex-end;
+}
+.member__profile {
+  display: flex;
+}
+.member__photo {
+  max-width: 14vw;
+}
+.member__role {
+  writing-mode: vertical-lr;
+}
+.member__name {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+@media (max-width: 576px) {
+  .team {
+    width: 95%;
+  }
+  .team__crew {
+    height: 110vh;
+  }
+  .team__details {
+    display: block;
+  }
+  .team__title {
+    width: 80%;
+    font-size: 40px;
+  }
+  .team__description {
+    width: 80%;
+    text-align: justify;
+    padding-right: 10%;
+  }
+
+  .member {
+    width: 50%;
+  }
+  .member--two {
+    align-self: flex-end;
+  }
+  .member--four {
+    align-self: flex-end;
+  }
+  .member--five {
+    align-self: flex-start;
+  }
+  .member--six {
+    align-self: flex-end;
+  }
+  .member__photo {
+    max-width: 30vw;
+  }
+}
+@media (max-width: 768px) and (min-width: 576px) {
+  .team {
+    width: 85%;
+  }
+  .team__crew {
+    height: 90vh;
+  }
+  .team__footer {
+    padding-top: 25%;
+  }
+
+  .member {
+    width: 50%;
+  }
+  .member__photo {
+    max-width: 20vw;
+  }
+}
+@media (max-width: 992px) and (min-width: 768px) {
+  .team {
+    width: 80%;
+  }
+  .team__crew {
+    height: 80vh;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
