@@ -1,0 +1,29 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+#app {
+  margin: auto;
+  margin-top: 20px;
+  max-width: 790px;
+  display: flex;
+  justify-content: center;
+}
+
+.productsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+p {
+  text-decoration: none;
+}
+
+.productsContainer__product {
+  margin: 10px;
+  padding: 10px 5px;
+  border: 1px solid #ccc;
+  min-width: 200px;
+  background-color: rgb(0, 0, 0);
+  color: #fff;
+  text-align: center;
+}
