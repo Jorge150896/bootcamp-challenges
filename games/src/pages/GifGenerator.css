@@ -1,0 +1,17 @@
+.gifGenerator {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.gifGenerator__search {
+  display: flex;
+  justify-content: center;
+}
+
+.gifs {
+  flex-direction: column-reverse;
+  display: flex;
+  justify-content: center;
+}
