@@ -1,0 +1,48 @@
+.shape {
+  &__cuadrado {
+    width: 100px;
+    height: 100px;
+    background: #428bca;
+    margin: 5%;
+  }
+  &__rectangulo {
+    width: 250px;
+    height: 100px;
+    border: 3px solid #555;
+    background: #428bca;
+    margin: 5%;
+  }
+  &__rombo {
+    width: 100px;
+    height: 100px;
+    border: 3px solid #555;
+    background: #428bca;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+    margin: 5%;
+  }
+  &__paralelogramo {
+    width: 150px;
+    height: 100px;
+    border: 3px solid #555;
+    background: #428bca;
+    -webkit-transform: skew(20deg);
+    -moz-transform: skew(20deg);
+    -ms-transform: skew(20deg);
+    -o-transform: skew(20deg);
+    transform: skew(20deg);
+    margin: 5%;
+  }
+  &__circulo {
+    width: 100px;
+    height: 100px;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background: #428bca;
+    margin: 5%;
+  }
+}

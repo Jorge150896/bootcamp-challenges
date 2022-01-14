@@ -4,7 +4,7 @@ import { useState } from 'react';
 import './GifGenerator.css'
 const GifGenerator = () => {
 
-    const [query,setQuery] = useState('')
+    const [query,setQuery] = useState('saitama')
     const[gifs,setGifs] =useState([])
 
     const handleGifs = async () => {

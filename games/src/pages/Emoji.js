@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import './App.css';
+import './Emoji.css';
 
 const emojiDictionary ={
   banana: '🍌',
@@ -11,7 +11,7 @@ const transformTextToEmoji = text =>{
   return newText.join(' ');
 };
 
-const App = () => {
+const Emoji = () => {
   const [color,setColor] = useState('blue')
   const[text,setText] =useState('Hola estado inicial')
   const onTextAreaChnages = (e) => {
@@ -28,4 +28,4 @@ const App = () => {
   );
 }
  
-export default App;
+export default Emoji;
