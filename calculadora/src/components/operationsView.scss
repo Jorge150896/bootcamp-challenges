@@ -1,0 +1,13 @@
+.operations {
+  padding: 20px;
+  margin-left: 60px;
+  height: 470px;
+  width: 400px;
+  overflow: hidden;
+  border-radius: 20px;
+  background-color: var(--calc-bg);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
