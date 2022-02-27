@@ -1,0 +1,39 @@
+.operations {
+  padding: 20px;
+  height: 400px;
+  width: 800px;
+  overflow: hidden;
+  border-radius: 20px;
+  background-color: var(--calc-bg);
+  box-shadow: 7px 7px 8px rgba(25, 29, 43, 0.44);
+  display: flex;
+  align-items: center;
+  &__title {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: 600;
+  }
+  &__descripcion {
+    display: flex;
+    justify-content: center;
+  }
+
+  &__left {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  &__center {
+    font-size: larger;
+  }
+  span {
+    display: none !important;
+  }
+}
